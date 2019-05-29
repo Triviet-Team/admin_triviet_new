@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "SF Display";
+  font-weight: 400;
+  src: url("../fonts/SF-UI-Display-Regular.otf");
+}
+@font-face {
+  font-family: "SF Display";
+  font-weight: 500;
+  src: url("../fonts/SF-UI-Display-Medium.otf");
+}
+@font-face {
+  font-family: "SF Display";
+  font-weight: 600;
+  src: url("../fonts/SF-UI-Display-Semibold.otf");
+}
+@font-face {
+  font-family: "SF Display";
+  font-weight: bold;
+  src: url("../fonts/SF-UI-Display-Bold.otf");
+}
+.container {
+  margin-top: 50px;
+}
+
+.box-login {
+  width: 500px;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  margin: auto;
+  border-radius: 3px;
+}
+.box-login h5 {
+  text-align: center;
+  background: #1E74DA;
+  padding: 15px 0;
+  color: white;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.box-login form {
+  padding: 30px;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .box-login {
+    width: 100%;
+  }
+  .box-login form {
+    padding: 15px;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */
